@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  terraflow:
+    image: tensorflow/tensorflow:latest
+
+  jupyter:
+    image: tensorflow/tensorflow:latest-jupyter
+    ports:
+      - 8888:8888
